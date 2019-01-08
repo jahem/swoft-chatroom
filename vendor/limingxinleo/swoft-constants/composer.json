@@ -1,0 +1,35 @@
+{
+    "name": "limingxinleo/swoft-constants",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "swoole",
+        "swoft"
+    ],
+    "description": "Swoft 常量组件",
+    "authors": [
+        {
+            "name": "李铭昕",
+            "email": "limingxin@swoft.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Swoftx\\Constants\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SwoftTest\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "limingxinleo/support-str": "^1.0"
+    },
+    "require-dev": {
+        "swoft/swoole-ide-helper": "dev-master",
+        "phpunit/phpunit": "^5.7"
+    }
+}

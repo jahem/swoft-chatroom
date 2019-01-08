@@ -1,0 +1,6 @@
+/vendor/
+composer.lock
+*.cache
+*.pid
+*.log
+tests/_ci/config.php
